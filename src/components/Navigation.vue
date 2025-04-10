@@ -9,5 +9,3 @@ defineProps({
     nav: String
 })
 </script>
-
-<style lang="scss" scoped></style>
