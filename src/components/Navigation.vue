@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text-slate-200">
         <a href="#">{{ nav }}</a>
     </div>
 </template>

@@ -1,18 +1,21 @@
 <template>
-    <div>
-        <div class="logo text-white">
-            <img src="../assets/logo.svg" alt="">
-            <span>antools.</span>
-        </div>
-        <nav>
-            <Navigation v-for="(nav, index) in navigation" :key="index" :nav="nav" />
-        </nav>
-        <div>
-            <ButtonRightHeader backgroundColor="" textButton="Login" />
-            <ButtonRightHeader backgroundColor="bg-[#FF6E30]" textButton="SignUp" />
-        </div>
+    <div class="">
+        <div class="flex items-center justify-between">
+            <div class="logo text-white flex items-center">
+                <img src="../assets/logo.svg" alt="">
+                <span>antools.</span>
+            </div>
+            <nav class="flex items-center gap-[40px]">
+                <Navigation v-for="(nav, index) in navigation" :key="index" :nav="nav" />
+            </nav>
+            <div class="flex items-center gap-4">
+                <ButtonRightHeader backgroundColor="" textButton="Login" />
+                <ButtonRightHeader backgroundColor="bg-[#FF6E30]" textButton="SignUp" />
+            </div>
 
+        </div>
     </div>
+
 </template>
 
 <script setup>
