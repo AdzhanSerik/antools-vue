@@ -14,4 +14,6 @@ const navigation = [
   'Blog',
 ]
 
+localStorage.setItem('user', 'Atamchik')
+
 </script>
