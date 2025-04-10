@@ -1,10 +1,11 @@
 <template>
-    <button :class="`bg-[${backgroundColor}]`">Hello</button>
+    <button :class="backgroundColor">{{ textButton }}</button>
 </template>
 
 <script setup>
 defineProps({
-    backgroundColor: String
+    backgroundColor: String,
+    textButton: String
 })
 
 </script>

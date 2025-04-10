@@ -8,8 +8,8 @@
             <Navigation v-for="(nav, index) in navigation" :key="index" :nav="nav" />
         </nav>
         <div>
-            <ButtonRightHeader backgroundColor="#FF6E30" />
-            <ButtonRightHeader backgroundColor="#FFF" />
+            <ButtonRightHeader backgroundColor="" textButton="Login" />
+            <ButtonRightHeader backgroundColor="bg-[#FF6E30]" textButton="SignUp" />
         </div>
 
     </div>
